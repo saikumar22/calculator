@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+    <title>My Calculator</title>
+</head>
+<body>
+    <form class="calculator" name="calc"> 
+        <input class="value" id="result" type="text" name="txt" read-only=""> 
+        <span class="num clear" onclick="cleared()">C</span> 
+        <span class="num" onclick="insertnumber('/')">/</span> 
+        <span class="num" onclick="insertnumber('*')">*</span> 
+        <span class="num" onclick="insertnumber('7')">7</span> 
+        <span class="num" onclick="insertnumber('8')">8</span> 
+        <span class="num" onclick="insertnumber('9')">9</span> 
+        <span class="num" onclick="insertnumber('-')">-</span> 
+        <span class="num" onclick="insertnumber('4')">4</span> 
+        <span class="num" onclick="insertnumber('5')">5</span> 
+        <span class="num" onclick="insertnumber('6')">6</span> 
+        <span class="num plus" onclick="insertnumber('+')">+</span> 
+        <span class="num" onclick="insertnumber('1')">1</span> 
+        <span class="num" onclick="insertnumber('2')">2</span> 
+        <span class="num" onclick="insertnumber('3')">3</span> 
+        <span class="num" onclick="insertnumber('.')">.</span> 
+        <span class="num" onclick="insertnumber('0')">0</span> 
+        <span class="num" onclick="insertnumber('00')">00</span> 
+        <span class="num equal" onclick="operate()">=</span>. 
+       </form>    
+</body>
+</html>
